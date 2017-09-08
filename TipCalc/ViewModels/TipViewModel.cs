@@ -18,5 +18,63 @@ namespace TipCalc.Core.ViewModels
             calculation = _calculation;
         }
 
+        public override void Start()
+        {
+            base.Start();
+        }             
+
+        int _generosity;
+        public int Generosity
+        {
+            get
+            {
+                return _generosity;
+            }
+            set
+            {
+                _generosity = value;
+                RaisePropertyChanged(() => Generosity);
+                Recalculate();
+            }
+        }
+
+        double _tip;
+        public double Tip
+        {
+            get
+            {
+                return _tip;
+            }
+            set
+            {
+                _tip = value;
+                RaisePropertyChanged(() => Tip);
+            }
+        }
+
+        double _subtotal;
+        public double SubTotal
+        {
+            get
+            {
+                return _subtotal;
+            }
+            set
+            {
+                _subtotal = value;
+                RaisePropertyChanged(() => SubTotal);
+                Recalculate();                
+            }
+        }
+
+        void Recalculate()
+        {
+            Tip = _calculation.TipAmount(SubTotal, Generosity);
+        }
+
+
     }
-}
+
+
+ }
+
