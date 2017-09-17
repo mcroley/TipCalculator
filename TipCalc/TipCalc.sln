@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.Core", "TipCalc.Core.csproj", "{F46A3FED-ED4B-4D5D-A39D-3713FFFB4A8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.UI.Droid", "..\TipCalc.UI.Droid\TipCalc.UI.Droid.csproj", "{651AC716-F8D5-4C10-9C6E-F87E7E147437}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{F46A3FED-ED4B-4D5D-A39D-3713FFFB4A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F46A3FED-ED4B-4D5D-A39D-3713FFFB4A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F46A3FED-ED4B-4D5D-A39D-3713FFFB4A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651AC716-F8D5-4C10-9C6E-F87E7E147437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651AC716-F8D5-4C10-9C6E-F87E7E147437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651AC716-F8D5-4C10-9C6E-F87E7E147437}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{651AC716-F8D5-4C10-9C6E-F87E7E147437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651AC716-F8D5-4C10-9C6E-F87E7E147437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651AC716-F8D5-4C10-9C6E-F87E7E147437}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

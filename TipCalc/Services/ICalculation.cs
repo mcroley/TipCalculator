@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TipCalc.Core.Services
 {
-    public interface ICalculation
+    public interface ICalculation  // ioc interface 
     {
-        double TipAmount(double subTotal, int generosity);
+        double TipAmount(double subTotal, int generosity); 
     }
 }
